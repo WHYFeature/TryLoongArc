@@ -1,0 +1,3 @@
+/home/user/Desktop/workspace/train_af/build_my/CMakeFiles/train.dir
+/home/user/Desktop/workspace/train_af/build_my/CMakeFiles/edit_cache.dir
+/home/user/Desktop/workspace/train_af/build_my/CMakeFiles/rebuild_cache.dir

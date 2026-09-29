@@ -1,0 +1,23 @@
+QMAKE_CXX.QT_COMPILER_STDCXX = 201402L
+QMAKE_CXX.QMAKE_GCC_MAJOR_VERSION = 8
+QMAKE_CXX.QMAKE_GCC_MINOR_VERSION = 3
+QMAKE_CXX.QMAKE_GCC_PATCH_VERSION = 0
+QMAKE_CXX.COMPILER_MACROS = \
+    QT_COMPILER_STDCXX \
+    QMAKE_GCC_MAJOR_VERSION \
+    QMAKE_GCC_MINOR_VERSION \
+    QMAKE_GCC_PATCH_VERSION
+QMAKE_CXX.INCDIRS = \
+    /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include \
+    /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed \
+    /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include/c++ \
+    /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include/c++/backward \
+    /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include
+QMAKE_CXX.LIBDIRS = \
+    /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0 \
+    /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc \
+    /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64 \
+    /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/lib64 \
+    /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/loongarch64-linux-gnu/lib \
+    /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib \
+    /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/lib

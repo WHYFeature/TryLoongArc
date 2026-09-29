@@ -1,0 +1,413 @@
+The system is: Linux - 6.8.0-138-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/user/Desktop/workspace/train_af/build_my/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/user/Desktop/workspace/train_af/build_my/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/user/Desktop/workspace/train_af/build_my/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_72426/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_72426.dir/build.make CMakeFiles/cmTC_72426.dir/build
+gmake[1]: Entering directory '/home/user/Desktop/workspace/train_af/build_my/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o
+/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-gcc   -v -o CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o -c /home/user/miniconda3/envs/pytorch-loongarch64-env/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-gcc
+Target: loongarch64-linux-gnu
+Configured with: /dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/src/gcc/configure --build=x86_64-redhat-linux --host=x86_64-redhat-linux --target=loongarch64-linux-gnu --program-prefix=loongarch64-linux-gnu- --prefix=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross --libdir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/lib --with-gxx-include-dir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot/usr/include/c++ --with-sysroot=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot --with-native-system-header-dir=/usr/include --with-arch=loongarch64 --with-abi=lp64 --with-multilib-list=lp64d,lp64s --with-pkgversion='LoongArch\ GNU\ toolchain\ vec.32-rc2' --disable-linker-build-id --with-newlib --without-headers --disable-shared --enable-threads=posix --enable-tls --enable-languages=c,c++,fortran --enable-__cxa_atexit --enable-libquadmath-support --disable-gcov --disable-libcc1 --enable-initfini-array --disable-nls --disable-bootstrap --with-glibc-version=2.28
+Thread model: posix
+gcc version 8.3.0 (LoongArch GNU toolchain vec.32-rc2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464'
+ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/cc1 -quiet -v -imultilib . -iprefix /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/ -isysroot /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot /home/user/miniconda3/envs/pytorch-loongarch64-env/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mabi=lp64d -march=loongarch64 -mfpu=64 -mcmodel=normal -mtune=la464 -auxbase-strip CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccFZfhFq.s
+GNU C17 (LoongArch GNU toolchain vec.32-rc2) version 8.3.0 (loongarch64-linux-gnu)
+	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-10), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"
+ignoring duplicate directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include"
+ignoring nonexistent directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/local/include"
+ignoring duplicate directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed"
+ignoring nonexistent directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/../../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include
+ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed
+ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include
+End of search list.
+GNU C17 (LoongArch GNU toolchain vec.32-rc2) version 8.3.0 (loongarch64-linux-gnu)
+	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-10), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: e91ae5bde8c737945636ca1bb1a2942e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464'
+ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/as -v -mabi=lp64 -o CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o /tmp/ccFZfhFq.s
+GNU assembler version 2.31.1 (loongarch64-linux-gnu) using BFD version (GNU Binutils) 2.31.1.20190122
+COMPILER_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/
+LIBRARY_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464'
+Linking C executable cmTC_72426
+/home/user/miniconda3/envs/pytorch-loongarch64-env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72426.dir/link.txt --verbose=1
+/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-gcc  -v -rdynamic CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o -o cmTC_72426 
+Using built-in specs.
+COLLECT_GCC=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-gcc
+COLLECT_LTO_WRAPPER=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper
+Target: loongarch64-linux-gnu
+Configured with: /dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/src/gcc/configure --build=x86_64-redhat-linux --host=x86_64-redhat-linux --target=loongarch64-linux-gnu --program-prefix=loongarch64-linux-gnu- --prefix=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross --libdir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/lib --with-gxx-include-dir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot/usr/include/c++ --with-sysroot=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot --with-native-system-header-dir=/usr/include --with-arch=loongarch64 --with-abi=lp64 --with-multilib-list=lp64d,lp64s --with-pkgversion='LoongArch\ GNU\ toolchain\ vec.32-rc2' --disable-linker-build-id --with-newlib --without-headers --disable-shared --enable-threads=posix --enable-tls --enable-languages=c,c++,fortran --enable-__cxa_atexit --enable-libquadmath-support --disable-gcov --disable-libcc1 --enable-initfini-array --disable-nls --disable-bootstrap --with-glibc-version=2.28
+Thread model: posix
+gcc version 8.3.0 (LoongArch GNU toolchain vec.32-rc2) 
+COMPILER_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/
+LIBRARY_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_72426' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464'
+ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/collect2 -plugin /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRb7K4n.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot --eh-frame-hdr -m elf64loongarch -export-dynamic -dynamic-linker /lib64/ld.so.1 -o cmTC_72426 /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crt1.o /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crti.o /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0 -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64 -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64 -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_72426' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464'
+gmake[1]: Leaving directory '/home/user/Desktop/workspace/train_af/build_my/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include]
+    add: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed]
+    add: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include]
+  collapse include dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed]
+  collapse include dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include]
+  implicit include dirs: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(loongarch64-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/user/Desktop/workspace/train_af/build_my/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_72426/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_72426.dir/build.make CMakeFiles/cmTC_72426.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/user/Desktop/workspace/train_af/build_my/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-gcc   -v -o CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o -c /home/user/miniconda3/envs/pytorch-loongarch64-env/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-gcc]
+  ignore line: [Target: loongarch64-linux-gnu]
+  ignore line: [Configured with: /dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/src/gcc/configure --build=x86_64-redhat-linux --host=x86_64-redhat-linux --target=loongarch64-linux-gnu --program-prefix=loongarch64-linux-gnu- --prefix=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross --libdir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/lib --with-gxx-include-dir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot/usr/include/c++ --with-sysroot=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot --with-native-system-header-dir=/usr/include --with-arch=loongarch64 --with-abi=lp64 --with-multilib-list=lp64d lp64s --with-pkgversion='LoongArch\ GNU\ toolchain\ vec.32-rc2' --disable-linker-build-id --with-newlib --without-headers --disable-shared --enable-threads=posix --enable-tls --enable-languages=c c++ fortran --enable-__cxa_atexit --enable-libquadmath-support --disable-gcov --disable-libcc1 --enable-initfini-array --disable-nls --disable-bootstrap --with-glibc-version=2.28]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (LoongArch GNU toolchain vec.32-rc2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464']
+  ignore line: [ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/cc1 -quiet -v -imultilib . -iprefix /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/ -isysroot /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot /home/user/miniconda3/envs/pytorch-loongarch64-env/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mabi=lp64d -march=loongarch64 -mfpu=64 -mcmodel=normal -mtune=la464 -auxbase-strip CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccFZfhFq.s]
+  ignore line: [GNU C17 (LoongArch GNU toolchain vec.32-rc2) version 8.3.0 (loongarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-10)  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/../../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include]
+  ignore line: [ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed]
+  ignore line: [ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (LoongArch GNU toolchain vec.32-rc2) version 8.3.0 (loongarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-10)  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: e91ae5bde8c737945636ca1bb1a2942e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464']
+  ignore line: [ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/as -v -mabi=lp64 -o CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o /tmp/ccFZfhFq.s]
+  ignore line: [GNU assembler version 2.31.1 (loongarch64-linux-gnu) using BFD version (GNU Binutils) 2.31.1.20190122]
+  ignore line: [COMPILER_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o' '-c' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464']
+  ignore line: [Linking C executable cmTC_72426]
+  ignore line: [/home/user/miniconda3/envs/pytorch-loongarch64-env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72426.dir/link.txt --verbose=1]
+  ignore line: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-gcc  -v -rdynamic CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o -o cmTC_72426 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper]
+  ignore line: [Target: loongarch64-linux-gnu]
+  ignore line: [Configured with: /dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/src/gcc/configure --build=x86_64-redhat-linux --host=x86_64-redhat-linux --target=loongarch64-linux-gnu --program-prefix=loongarch64-linux-gnu- --prefix=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross --libdir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/lib --with-gxx-include-dir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot/usr/include/c++ --with-sysroot=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot --with-native-system-header-dir=/usr/include --with-arch=loongarch64 --with-abi=lp64 --with-multilib-list=lp64d lp64s --with-pkgversion='LoongArch\ GNU\ toolchain\ vec.32-rc2' --disable-linker-build-id --with-newlib --without-headers --disable-shared --enable-threads=posix --enable-tls --enable-languages=c c++ fortran --enable-__cxa_atexit --enable-libquadmath-support --disable-gcov --disable-libcc1 --enable-initfini-array --disable-nls --disable-bootstrap --with-glibc-version=2.28]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (LoongArch GNU toolchain vec.32-rc2) ]
+  ignore line: [COMPILER_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_72426' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464']
+  link line: [ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/collect2 -plugin /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRb7K4n.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot --eh-frame-hdr -m elf64loongarch -export-dynamic -dynamic-linker /lib64/ld.so.1 -o cmTC_72426 /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crt1.o /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crti.o /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0 -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64 -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64 -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crtn.o]
+    arg [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccRb7K4n.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64loongarch] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_72426] ==> ignore
+    arg [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crt1.o] ==> obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crt1.o]
+    arg [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crti.o] ==> obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crti.o]
+    arg [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o] ==> obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o]
+    arg [-L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0] ==> dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0]
+    arg [-L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc] ==> dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc]
+    arg [-L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64] ==> dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64]
+    arg [-L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64] ==> dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64]
+    arg [-L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib] ==> dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib]
+    arg [-L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib] ==> dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib]
+    arg [-L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib] ==> dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_72426.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o] ==> obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o]
+    arg [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crtn.o] ==> obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crtn.o]
+  collapse obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crt1.o] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64/crt1.o]
+  collapse obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crti.o] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64/crti.o]
+  collapse obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o]
+  collapse obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o]
+  collapse obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crtn.o] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64/crtn.o]
+  collapse library dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0]
+  collapse library dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc]
+  collapse library dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64]
+  collapse library dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/lib64]
+  collapse library dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/loongarch64-linux-gnu/lib]
+  collapse library dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib]
+  collapse library dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64/crt1.o;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64/crti.o;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64/crtn.o]
+  implicit dirs: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/lib64;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/loongarch64-linux-gnu/lib;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/user/Desktop/workspace/train_af/build_my/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_06310/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_06310.dir/build.make CMakeFiles/cmTC_06310.dir/build
+gmake[1]: Entering directory '/home/user/Desktop/workspace/train_af/build_my/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o
+/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-g++   -v -o CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o -c /home/user/miniconda3/envs/pytorch-loongarch64-env/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-g++
+Target: loongarch64-linux-gnu
+Configured with: /dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/src/gcc/configure --build=x86_64-redhat-linux --host=x86_64-redhat-linux --target=loongarch64-linux-gnu --program-prefix=loongarch64-linux-gnu- --prefix=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross --libdir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/lib --with-gxx-include-dir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot/usr/include/c++ --with-sysroot=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot --with-native-system-header-dir=/usr/include --with-arch=loongarch64 --with-abi=lp64 --with-multilib-list=lp64d,lp64s --with-pkgversion='LoongArch\ GNU\ toolchain\ vec.32-rc2' --disable-linker-build-id --with-newlib --without-headers --disable-shared --enable-threads=posix --enable-tls --enable-languages=c,c++,fortran --enable-__cxa_atexit --enable-libquadmath-support --disable-gcov --disable-libcc1 --enable-initfini-array --disable-nls --disable-bootstrap --with-glibc-version=2.28
+Thread model: posix
+gcc version 8.3.0 (LoongArch GNU toolchain vec.32-rc2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464'
+ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/cc1plus -quiet -v -imultilib . -iprefix /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/ -isysroot /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot -D_GNU_SOURCE /home/user/miniconda3/envs/pytorch-loongarch64-env/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mabi=lp64d -march=loongarch64 -mfpu=64 -mcmodel=normal -mtune=la464 -auxbase-strip CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccJVfr8E.s
+GNU C++14 (LoongArch GNU toolchain vec.32-rc2) version 8.3.0 (loongarch64-linux-gnu)
+	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-10), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"
+ignoring nonexistent directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/include/c++/loongarch64-linux-gnu/."
+ignoring duplicate directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include"
+ignoring nonexistent directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/local/include"
+ignoring duplicate directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed"
+ignoring nonexistent directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/../../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include
+ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed
+ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include/c++
+ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include/c++/backward
+ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include
+End of search list.
+GNU C++14 (LoongArch GNU toolchain vec.32-rc2) version 8.3.0 (loongarch64-linux-gnu)
+	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-10), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b97f45cfbe66248866fef8db8720c299
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464'
+ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/as -v -mabi=lp64 -o CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJVfr8E.s
+GNU assembler version 2.31.1 (loongarch64-linux-gnu) using BFD version (GNU Binutils) 2.31.1.20190122
+COMPILER_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/
+LIBRARY_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464'
+Linking CXX executable cmTC_06310
+/home/user/miniconda3/envs/pytorch-loongarch64-env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06310.dir/link.txt --verbose=1
+/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-g++  -v -rdynamic CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_06310 
+Using built-in specs.
+COLLECT_GCC=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-g++
+COLLECT_LTO_WRAPPER=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper
+Target: loongarch64-linux-gnu
+Configured with: /dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/src/gcc/configure --build=x86_64-redhat-linux --host=x86_64-redhat-linux --target=loongarch64-linux-gnu --program-prefix=loongarch64-linux-gnu- --prefix=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross --libdir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/lib --with-gxx-include-dir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot/usr/include/c++ --with-sysroot=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot --with-native-system-header-dir=/usr/include --with-arch=loongarch64 --with-abi=lp64 --with-multilib-list=lp64d,lp64s --with-pkgversion='LoongArch\ GNU\ toolchain\ vec.32-rc2' --disable-linker-build-id --with-newlib --without-headers --disable-shared --enable-threads=posix --enable-tls --enable-languages=c,c++,fortran --enable-__cxa_atexit --enable-libquadmath-support --disable-gcov --disable-libcc1 --enable-initfini-array --disable-nls --disable-bootstrap --with-glibc-version=2.28
+Thread model: posix
+gcc version 8.3.0 (LoongArch GNU toolchain vec.32-rc2) 
+COMPILER_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/
+LIBRARY_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_06310' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464'
+ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/collect2 -plugin /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuT16AR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot --eh-frame-hdr -m elf64loongarch -export-dynamic -dynamic-linker /lib64/ld.so.1 -o cmTC_06310 /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crt1.o /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crti.o /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0 -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64 -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64 -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_06310' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464'
+gmake[1]: Leaving directory '/home/user/Desktop/workspace/train_af/build_my/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include]
+    add: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed]
+    add: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include/c++]
+    add: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include/c++/backward]
+    add: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include]
+  collapse include dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed]
+  collapse include dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include/c++] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include/c++]
+  collapse include dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include/c++/backward] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include/c++/backward]
+  collapse include dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include]
+  implicit include dirs: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include/c++;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include/c++/backward;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(loongarch64-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/user/Desktop/workspace/train_af/build_my/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_06310/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_06310.dir/build.make CMakeFiles/cmTC_06310.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/user/Desktop/workspace/train_af/build_my/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-g++   -v -o CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o -c /home/user/miniconda3/envs/pytorch-loongarch64-env/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-g++]
+  ignore line: [Target: loongarch64-linux-gnu]
+  ignore line: [Configured with: /dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/src/gcc/configure --build=x86_64-redhat-linux --host=x86_64-redhat-linux --target=loongarch64-linux-gnu --program-prefix=loongarch64-linux-gnu- --prefix=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross --libdir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/lib --with-gxx-include-dir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot/usr/include/c++ --with-sysroot=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot --with-native-system-header-dir=/usr/include --with-arch=loongarch64 --with-abi=lp64 --with-multilib-list=lp64d lp64s --with-pkgversion='LoongArch\ GNU\ toolchain\ vec.32-rc2' --disable-linker-build-id --with-newlib --without-headers --disable-shared --enable-threads=posix --enable-tls --enable-languages=c c++ fortran --enable-__cxa_atexit --enable-libquadmath-support --disable-gcov --disable-libcc1 --enable-initfini-array --disable-nls --disable-bootstrap --with-glibc-version=2.28]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (LoongArch GNU toolchain vec.32-rc2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464']
+  ignore line: [ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/cc1plus -quiet -v -imultilib . -iprefix /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/ -isysroot /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot -D_GNU_SOURCE /home/user/miniconda3/envs/pytorch-loongarch64-env/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mabi=lp64d -march=loongarch64 -mfpu=64 -mcmodel=normal -mtune=la464 -auxbase-strip CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccJVfr8E.s]
+  ignore line: [GNU C++14 (LoongArch GNU toolchain vec.32-rc2) version 8.3.0 (loongarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-10)  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/include/c++/loongarch64-linux-gnu/."]
+  ignore line: [ignoring duplicate directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/../../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include]
+  ignore line: [ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/include-fixed]
+  ignore line: [ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include/c++]
+  ignore line: [ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include/c++/backward]
+  ignore line: [ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (LoongArch GNU toolchain vec.32-rc2) version 8.3.0 (loongarch64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-10)  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b97f45cfbe66248866fef8db8720c299]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464']
+  ignore line: [ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/as -v -mabi=lp64 -o CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJVfr8E.s]
+  ignore line: [GNU assembler version 2.31.1 (loongarch64-linux-gnu) using BFD version (GNU Binutils) 2.31.1.20190122]
+  ignore line: [COMPILER_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464']
+  ignore line: [Linking CXX executable cmTC_06310]
+  ignore line: [/home/user/miniconda3/envs/pytorch-loongarch64-env/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06310.dir/link.txt --verbose=1]
+  ignore line: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-g++  -v -rdynamic CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_06310 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/loongarch64-linux-gnu-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper]
+  ignore line: [Target: loongarch64-linux-gnu]
+  ignore line: [Configured with: /dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/src/gcc/configure --build=x86_64-redhat-linux --host=x86_64-redhat-linux --target=loongarch64-linux-gnu --program-prefix=loongarch64-linux-gnu- --prefix=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross --libdir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/lib --with-gxx-include-dir=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot/usr/include/c++ --with-sysroot=/dev/shm/build_loongarch64_gcc8-host-x86_64_2022-07-18/cross/sysroot --with-native-system-header-dir=/usr/include --with-arch=loongarch64 --with-abi=lp64 --with-multilib-list=lp64d lp64s --with-pkgversion='LoongArch\ GNU\ toolchain\ vec.32-rc2' --disable-linker-build-id --with-newlib --without-headers --disable-shared --enable-threads=posix --enable-tls --enable-languages=c c++ fortran --enable-__cxa_atexit --enable-libquadmath-support --disable-gcov --disable-libcc1 --enable-initfini-array --disable-nls --disable-bootstrap --with-glibc-version=2.28]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (LoongArch GNU toolchain vec.32-rc2) ]
+  ignore line: [COMPILER_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/:/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_06310' '-shared-libgcc' '-mabi=lp64d' '-march=loongarch64' '-mfpu=64' '-mcmodel=normal' '-mtune=la464']
+  link line: [ /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/collect2 -plugin /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/liblto_plugin.so -plugin-opt=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuT16AR.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot --eh-frame-hdr -m elf64loongarch -export-dynamic -dynamic-linker /lib64/ld.so.1 -o cmTC_06310 /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crt1.o /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crti.o /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0 -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64 -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64 -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib -L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o /opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crtn.o]
+    arg [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../libexec/gcc/loongarch64-linux-gnu/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccuT16AR.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf64loongarch] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_06310] ==> ignore
+    arg [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crt1.o] ==> obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crt1.o]
+    arg [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crti.o] ==> obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crti.o]
+    arg [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o] ==> obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o]
+    arg [-L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0] ==> dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0]
+    arg [-L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc] ==> dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc]
+    arg [-L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64] ==> dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64]
+    arg [-L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64] ==> dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64]
+    arg [-L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib] ==> dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib]
+    arg [-L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib] ==> dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib]
+    arg [-L/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib] ==> dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_06310.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o] ==> obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o]
+    arg [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crtn.o] ==> obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crtn.o]
+  collapse obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crt1.o] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64/crt1.o]
+  collapse obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crti.o] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64/crti.o]
+  collapse obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o]
+  collapse obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o]
+  collapse obj [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64/crtn.o] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64/crtn.o]
+  collapse library dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0]
+  collapse library dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc]
+  collapse library dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib/../lib64] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64]
+  collapse library dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib/../lib64] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/lib64]
+  collapse library dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../lib/gcc/loongarch64-linux-gnu/8.3.0/../../../../loongarch64-linux-gnu/lib] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/loongarch64-linux-gnu/lib]
+  collapse library dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/lib] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib]
+  collapse library dir [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/bin/../sysroot/usr/lib] ==> [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64/crt1.o;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64/crti.o;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/crtbegin.o;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0/crtend.o;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64/crtn.o]
+  implicit dirs: [/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc/loongarch64-linux-gnu/8.3.0;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/lib/gcc;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib64;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/lib64;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/loongarch64-linux-gnu/lib;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/lib;/opt/toolchain-loongarch64-linux-gnu-gcc8-host-x86_64-2022-07-18/sysroot/usr/lib]
+  implicit fwks: []
+
+
