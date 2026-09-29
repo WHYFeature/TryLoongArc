@@ -1,0 +1,47 @@
+# Editor settings
+.vscode/
+
+# Compiler intermediate files
+*.o
+*.obj
+*.d
+*.dep
+*.i
+*.s
+*.su
+*.gcno
+*.gcda
+
+# Linux kernel module build files
+*.mod
+*.mod.c
+*.mod.o
+*.order
+*.symvers
+*.cmd
+.tmp_versions/
+
+# CMake-generated files (keep Makefiles and final executables)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+compile_commands.json
+install_manifest.txt
+
+# qmake-generated files
+.qmake.stash
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Data copied into the CMake build directories
+/workspace/train_af/build/data/
+/workspace/train_af/build_my/data/
+
+# Temporary and backup files
+*~
+*.tmp
+*.swp
+*.swo
+
